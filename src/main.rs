@@ -1,5 +1,6 @@
 use evm_address_filter::run;
 
-fn main() {
-    run();
+#[tokio::main]
+async fn main() -> eyre::Result<()> {
+    run().await
 }
