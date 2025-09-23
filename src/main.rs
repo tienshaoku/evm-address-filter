@@ -1,3 +1,5 @@
+use evm_address_filter::run;
+
 fn main() {
-    println!("Hello, world!");
+    run();
 }
